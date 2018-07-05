@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/titleNewsTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:textColor="#1551c3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="title" />
+
+    <TextView
+        android:id="@+id/authorNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:paddingBottom="5dp"
+        android:textColor="#5d5d5d"
+        android:textSize="14sp"
+        tools:text="Author Name" />
+
+    <TextView
+        android:id="@+id/sectionNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:textColor="#5d5d5d"
+        android:textSize="12sp"
+        tools:text="Section Name" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:textColor="#5d5d5d"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        tools:text="date" />
+</LinearLayout>
